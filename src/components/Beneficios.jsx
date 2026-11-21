@@ -32,7 +32,7 @@ export default function Beneficios() {
   }, []);
   
   return (
-   <section id="beneficios" className="beneficios">
+  <section id="beneficios" className="beneficios">
       <div className="interface">
         <div className="card-beneficios beneficios-efeito">
           <div className="Sindicos">
