@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
-import smartphone from "../src/background/smartphone.webm";
+import smartphone from "../src/background/Smartphone.webm";
 import sindicos from "../src/icon/sindicos.png"
 import moradores from "../src/icon/moradores.png"
 
