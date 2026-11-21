@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./src/font/Poppins-Regular.ttf);
+}
+
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --background: #111a16;
+  --colorWhite: #ffffff;
+  --colorGray: #828282;
+  --ColorDarkGreen: #244f4048;
+  --ColorGreen: #80ef80;
+  --colorbrown: #e99068;
+  --headerbackground: #213b3073;
+  --headerscroll: #213b30;
+  --control-height: 40px;
+  --control-radius: 8px;
+  --control-font-size: 13px;
+  --control-padding-x: 12px;
+  color-scheme: dark;
+  --app-bg: #111a16;
+  --header-bg: #244f40;
+  --header-text: #ffffff;
+  --header-muted: #d3e2d8;
+  --nav-bg: #366b56;
+  --nav-card-bg: #f7f8f4;
+  --nav-card-hover: #eef2ec;
+  --nav-card-active: #e99068;
+  --nav-card-border: #d9e2d9;
+  --nav-card-text: #315f4c;
+  --nav-icon-color: #e99068;
+  --nav-active-icon-bg: transparent;
+  --nav-active-icon-color: #ffffff;
+  --surface: #19241f;
+  --surface-raised: #202d27;
+  --surface-muted: #293831;
+  --surface-inset: #141d19;
+  --control-bg: #293831;
+  --control-hover: #35483e;
+  --text-primary: #edf3ee;
+  --text-secondary: #c5d2c9;
+  --text-muted: #9dad9f;
+  --border-color: #36483d;
+  --border-strong: #52695a;
+  --focus-color: #c1dfc8;
+  --accent-bg: #304d3e;
+  --accent-text: #e0eee2;
+  --danger-text: #ffaaa0;
+  --danger-border: #61433e;
+  --danger-bg: #382824;
+  --danger-action-bg: #9b5147;
+  --input-bg: #141d19;
+  --input-border: #46594c;
+  --primary-action-bg: #557f66;
+  --primary-action-hover: #649274;
+  --primary-action-text: #ffffff;
+  --accent-soft-bg: #304d3e;
+  --accent-soft-text: #d7ead9;
+  --selection-bg: #304d3e;
+  --selection-border: #91b89a;
+  --success-text: #9dd5a8;
+  --success-border: #75b783;
+  --error-text: #ffaaa0;
+  --error-border-color: #d47b70;
+  --link-color: #a9d6b1;
+  --scrollbar-thumb: #506457;
+  --scrollbar-track: #19241f;
+  --overlay-bg: rgba(9, 17, 13, 0.5);
+  --pattern-dot: #7b9b83;
+  --toastify-color-light: var(--surface-raised);
+  --toastify-color-dark: var(--surface-raised);
+  --toastify-text-color-light: var(--text-primary);
+  --toastify-text-color-dark: var(--text-primary);
+}
+
+body {
+  background-color: var(--background);
+}
+
+.interface {
+  max-width: 1380px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
